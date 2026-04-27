@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>GreenLeaf Pharmacy — Trusted Care</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 antialiased">
+<section class="mx-auto max-w-4xl bg-white rounded-2xl shadow-lg overflow-hidden mt-16 mb-16">
+  <div class="md:flex">
+    <div class="md:w-1/2 p-8 sm:p-10">
+      <div class="flex items-center justify-between mb-4">
+        <div class="flex items-center gap-3">
+          <div class="w-12 h-12 bg-green-600 text-white rounded-lg flex items-center justify-center">
+            <svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M12 8v8m4-4H8m9-7a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+          </div>
+          <div>
+            <h6 class="text-sm font-semibold text-gray-700">GreenLeaf Pharmacy</h6>
+            <p class="text-xs text-gray-500">Reliable care • Fast delivery • Professional advice</p>
+          </div>
+        </div>
+        <div class="text-xs text-gray-400">Open • Mon–Sat</div>
+      </div>
+
+      <h1 class="text-2xl sm:text-3xl font-extrabold text-gray-900 leading-tight">
+        Trusted Pharmacy Services for Your Health
+      </h1>
+      <p class="mt-4 text-gray-600">
+        Convenient prescription fulfillment, expert pharmacist consultations, and same-day delivery. We prioritize safety, affordability, and timely care for you and your family.
+      </p>
+
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#order" class="inline-flex items-center px-4 py-2 bg-green-600 text-white rounded-lg shadow-sm hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-500">
+          Order Prescription
+        </a>
+        <a href="#contact" class="inline-flex items-center px-4 py-2 border border-gray-200 rounded-lg text-gray-700 hover:bg-gray-50">
+          Contact a Pharmacist
+        </a>
+      </div>
+
+      <div class="mt-6 grid grid-cols-2 gap-3 text-sm">
+        <div class="bg-gray-50 p-3 rounded-lg">
+          <div class="font-semibold text-gray-800">Medication Delivery</div>
+          <div class="text-gray-500">Same-day delivery within the city.</div>
+        </div>
+        <div class="bg-gray-50 p-3 rounded-lg">
+          <div class="font-semibold text-gray-800">Prescription Transfers</div>
+          <div class="text-gray-500">Quick and secure transfer from any provider.</div>
+        </div>
+        <div class="bg-gray-50 p-3 rounded-lg">
+          <div class="font-semibold text-gray-800">Consultations</div>
+          <div class="text-gray-500">Private pharmacist consultations available.</div>
+        </div>
+        <div class="bg-gray-50 p-3 rounded-lg">
+          <div class="font-semibold text-gray-800">Insurance Support</div>
+          <div class="text-gray-500">We accept most major plans and assist claims.</div>
+        </div>
+      </div>
+
+      <div class="mt-6 border-t pt-4 flex items-center justify-between">
+        <div>
+          <div class="text-xs text-gray-500">Hours</div>
+          <div class="text-sm font-medium text-gray-800">Mon–Sat • 8:00 AM – 8:00 PM</div>
+        </div>
+        <div class="text-right">
+          <div class="text-xs text-gray-500">Call</div>
+          <a href="tel:+1234567890" class="text-sm font-medium text-green-600">+1 (234) 567-890</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="md:w-1/2 bg-gradient-to-tr from-green-50 to-white p-8 sm:p-10 flex items-center justify-center">
+      <div class="w-full max-w-md">
+        <div class="bg-white rounded-xl p-6 shadow-sm">
+          <div class="flex items-center gap-4">
+            <div class="w-16 h-16 bg-green-100 rounded-lg flex items-center justify-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="w-8 h-8 text-green-600" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M21 10c0 6-9 12-9 12S3 16 3 10a9 9 0 1118 0z" />
+                <path stroke-linecap="round" stroke-linejoin="round" d="M12 7v6" />
+              </svg>
+            </div>
+            <div>
+              <div class="text-sm text-gray-500">Fast Refill</div>
+              <div class="font-semibold text-gray-800">Refill your prescriptions in 3 easy steps</div>
+            </div>
+          </div>
+
+          <form class="mt-6 space-y-3" onsubmit="event.preventDefault()">
+            <div>
+              <label class="block text-xs text-gray-500">Full Name</label>
+              <input type="text" required class="mt-1 w-full border border-gray-200 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-green-200" placeholder="Jane Doe" />
+            </div>
+            <div>
+              <label class="block text-xs text-gray-500">Phone or Email</label>
+              <input type="text" required class="mt-1 w-full border border-gray-200 rounded-md px-3 py-2 text-sm focus:ring-2 focus:ring-green-200" placeholder="Phone or email for updates" />
+            </div>
+            <div class="flex items-center gap-3">
+              <button type="submit" class="flex-1 inline-flex items-center justify-center px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700">
+                Request Refill
+              </button>
+              <button type="button" class="px-4 py-2 border border-gray-200 rounded-md text-gray-700 hover:bg-gray-50">
+                Save for Later
+              </button>
+            </div>
+          </form>
+
+          <div class="mt-4 text-xs text-gray-400">
+            By submitting you agree to our <span class="text-green-600">privacy policy</span> and terms. Refill requests are confirmed by a pharmacist.
+          </div>
+        </div>
+
+        <div class="mt-6 text-center text-sm text-gray-500">
+          Need urgent help? Visit our store at 123 Health Ave or call <a href="tel:+1234567890" class="text-green-600">+1 (234) 567-890</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
